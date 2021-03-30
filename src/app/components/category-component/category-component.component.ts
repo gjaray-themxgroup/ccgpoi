@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ComponentRendering } from '@sitecore-jss/sitecore-jss-angular';
+import { ComponentRendering, getFieldValue } from '@sitecore-jss/sitecore-jss-angular';
 import { CategoriesService } from '../../categories.service';
 @Component({
   selector: 'app-category-component',
@@ -15,6 +15,6 @@ export class CategoryComponentComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.categories = this.catService.getUSCategories(this.rendering.fields.state.value)
+    this.categories = this.catService.getUSCategories(getFieldValue<string>(this.rendering, 'state'))
   }
 }

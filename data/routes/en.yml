@@ -22,7 +22,9 @@ placeholders:
   jss-main:
   - componentName: CategoryComponent
     fields:
-      state: united-states
+      state: {
+        value: 'united-states'
+        }
       
           
 
