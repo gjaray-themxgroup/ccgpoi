@@ -15,6 +15,6 @@ export class CategoryComponentComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.categories = this.catService.getUSCategories(getFieldValue<string>(this.rendering, 'state'))
+    this.categories = this.catService.getCategories(getFieldValue<string>(this.rendering, 'state'))
   }
 }

@@ -20,11 +20,8 @@ fields:
 # root placeholder names are defined in the package.json config section (required for Sitecore deployment)
 placeholders:
   jss-main:
-  - componentName: CategoryComponent
+  - componentName: CountryComponent
     fields:
-      state: {
-        value: 'united-states'
-        }
       
           
 

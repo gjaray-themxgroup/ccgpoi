@@ -1,0 +1,10 @@
+<div class="countries">
+  <a class="country"*ngFor="let country of countries | async" [href]="country.Name">
+      <span>{{ country.PrimaryName }}</span>
+      <img [src]="country.Image"/>
+      <div class="name">
+        <span>{{ country.Name }}</span>
+        <span>{{ country.PopulationDisplay }}</span>
+      </div>
+  </a>
+</div>
