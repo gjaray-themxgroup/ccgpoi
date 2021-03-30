@@ -1,0 +1,6 @@
+<div class="wrapper">
+  <div class="categories" *ngFor="let cat of categories | async">
+    <span>{{ cat.PrimaryName }}</span>
+    <sc-placeholder name="category" [rendering]="route"></sc-placeholder>
+  </div>
+</div>
