@@ -1,0 +1,11 @@
+.country {
+    width :25%;
+    background-color: gray;
+    display: inline-block;
+}
+.country img {
+    width: 100%;
+}
+.country .name {
+    text-align: center;
+}

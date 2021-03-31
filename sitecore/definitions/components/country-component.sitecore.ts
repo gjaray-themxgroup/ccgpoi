@@ -1,4 +1,4 @@
-import { CommonFieldTypes, SitecoreIcon, Manifest } from '@sitecore-jss/sitecore-jss-manifest';
+import { SitecoreIcon, Manifest } from '@sitecore-jss/sitecore-jss-manifest';
 
 /**
  * Adds the CountryComponent component to the disconnected manifest.
